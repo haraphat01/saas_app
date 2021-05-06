@@ -51,8 +51,9 @@ group :test do
 end
 group :production do
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
- 
+  gem 'rails_12factor'
 end
+
 
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
